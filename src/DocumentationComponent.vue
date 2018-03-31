@@ -1,10 +1,6 @@
 <template>
 	<section>
 		<prop-doc :component="MyTest"></prop-doc>
-		<div>
-	    	<h1>{{ myComponentDoc.name }}</h1>
-	    	<p>{{ myComponentDoc.introduction }}</p>
-	    </div>
 	</section>
 </template>
 
@@ -21,9 +17,6 @@
 				return {
 					MyTest
 				}
-			},
-		computed: {
-    		myComponentDoc() { return propDoc.getDoc(MyTest) }
-  		}
+			}
 	}
 </script>

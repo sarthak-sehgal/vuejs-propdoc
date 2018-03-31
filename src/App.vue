@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<awesome-test></awesome-test>
+		<!-- <awesome-test></awesome-test> -->
 		<documentation></documentation>
 	</div>
 </template>
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+	html, body {
+		background-color: #efefef;
+	}
 </style>
